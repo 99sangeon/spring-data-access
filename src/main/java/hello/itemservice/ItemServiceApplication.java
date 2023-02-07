@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Profile;
 @Import(MemoryConfig.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web")
 public class ItemServiceApplication {
-
+	//Test
 	public static void main(String[] args) {
 		SpringApplication.run(ItemServiceApplication.class, args);
 	}
